@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+#main_header{
+    background-color: #333;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+#main_header h1{
+    font-family: 'Roboto';
+    font-size: 40px;
+
+}
+
+#main_header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+#main_header nav ul li{    
+    margin: 0 10px;
+}
+
+#main_header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans';
+}
+
+.container h2{
+    font-family: 'Montserrat';
+    margin: 20px 0 20px 80px;
+    padding-top: 10px;
+}
+
+section .articles{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 80px 0 80px;
+    justify-content: space-between;
+    
+}
+
+section .articles article{
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+section .articles article img{
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    border-style: double;
+}
+
+section .articles article p {
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+section .articles article a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    background-color: blue;
+    
+}
+
+section{
+    padding: 1%;
+}
+
+time{
+    font-size: 10px;
+}
+
+#sports{
+    background-color: #0099ff99;
+}
+
+#entertainment{
+    background-color: #9900ff99;
+}
+
+#tec{
+    background-color: lightgoldenrodyellow;
+}
+#economy{
+    background-color: lightgreen;
+}
