@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    border: solid rgb(70, 70, 70) 2px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.container {
+    margin: auto;
+    max-width: 70%;   
+}
+
+#Inicio{
+    padding-top: 100px;
+    background-image: url('../projeto/images/yoru.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+#Jogos{
+    background-image: url('../projeto/images/referencia.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+#Consoles{
+    background-image: url('../projeto/images/console.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+#Periféricos{
+    background-image: url('../projeto/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+#Sobre{
+    background-image: url('../projeto/images/gpu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 950px;
+}
+
+#Inicio{
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+
+main section h2{
+    font-family: 'Montserrat';
+    font-size: 70px;
+
+}
+main section  p{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    
+}
+
+main section{
+    padding-top: 70px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 220px 0 220px;
+}
+
+#video{
+    margin-top: 100px;
+    width: 853px;
+    height: 480px;
+}
+
+main section ul {
+    font-family: 'Open Sans';
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+}
+
+main section ul li img{
+    
+    margin-top: 60px;
+    width: 250px;
+    height: 250px;
+}
+
+main section ul li p{
+    margin-top: 40px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+main section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    background-color: blue;
+}
