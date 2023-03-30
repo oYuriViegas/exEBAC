@@ -104,7 +104,6 @@ main section ul {
     font-family: 'Open Sans';
     text-align: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     list-style: none;
     display: flex;
 }
@@ -114,13 +113,21 @@ main section ul li img{
     margin-top: 60px;
     width: 250px;
     height: 250px;
+    
 }
 
 main section ul li p{
     margin-top: 40px;
-    width: 250px;
+    width: 350px;
     height: 250px;
     margin-bottom: 40px;
+    background-color: #0000004b;
+}
+
+#keyboard{
+    width: auto;
+    height: 200px;
+    margin-top: 110px;
 }
 
 main section ul li a {
@@ -128,4 +135,45 @@ main section ul li a {
     color: #ffffff;
     padding: 8px;
     background-color: blue;
+}
+
+#teaser{
+    margin-top: 100px;
+    width: 853px;
+    height: 480px;
+}
+
+footer {
+    background-color: #333;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .rodape {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer .rodape li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
