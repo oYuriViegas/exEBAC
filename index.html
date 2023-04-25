@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de A e B</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de A e B</h1>
+    </header>
+    <main>
+        <form id="comparator-form">
+            <div class="valores">
+                <div class="valorA">
+                    <p>Valor A</p>
+                    <input type="number" id="valueA" name="valueA" required>
+                </div>
+                <div class="valorB">
+                    <p>Valor B</p>
+                    <input type="number" id="valueB" name="valueB" required>
+                </div>
+            </div>
+            <p id="result"></p>
+            <input type="button" id="verificar" value="Verificar">
+            <input type="button" id="resetBtn" value="Zerar">
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
